@@ -9,7 +9,6 @@ client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 # Formato -> "contraseña_secreta": "Nombre del Negocio (Fecha de caducidad)"
 # =========================================================================
 CLIENTES_ACTIVOS = {
-    "pizzapaco88": "Pizzería Paco (Activo hasta: 01 Agosto)",
     "barpepe77": "Bar Pepe (Activo hasta: 05 Agosto)",
     "cafemaria99": "Cafetería María (Activo hasta: 20 Agosto)"
 }
